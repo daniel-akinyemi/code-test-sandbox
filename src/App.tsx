@@ -1,18 +1,16 @@
 const App = () => {
 
-  const planets = [
-    {name:'Mars', isGasPlanet:false},
-    {name:'Earth', isGasPlanet:false},
-    {name:'Jupiter', isGasPlanet:true},
-    {name:'Venus', isGasPlanet:false},
-    {name:'Neptune', isGasPlanet:true},
-    {name:'Uranus', isGasPlanet:true},
-  ];
+  
   return (
-    <div>
-      {planets.map((planet,key) =>{
-        <div key={key}> {planet.isGasPlanet} && {planet.name}</div>
-      })}
+    <div className="max-w-5xl mx-auto flex flex-col items-center">
+      <h1 className="text-5xl">Generate An Excuse</h1>
+      <div className="flex flex-col my-10 space-y-8 w-20">
+
+      <button className="bg-gray-500">Party</button>
+      <button className="button bg-gray-500">Family</button>
+      <button className="button bg-gray-500">Office</button>
+      </div>
+      <p></p>
     </div>
   )
 }
