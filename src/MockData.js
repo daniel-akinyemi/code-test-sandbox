@@ -1,4 +1,4 @@
-export const Data = [{"id":1,"first_name":"Ansel","last_name":"Klemencic","email":"aklemencic0@mail.ru","gender":"Male","ip_address":"60.155.253.171","occupation":"Nuclear Power Engineer"},
+export const data = [{"id":1,"first_name":"Ansel","last_name":"Klemencic","email":"aklemencic0@mail.ru","gender":"Male","ip_address":"60.155.253.171","occupation":"Nuclear Power Engineer"},
 {"id":2,"first_name":"Deny","last_name":"Pautard","email":"dpautard1@google.com.au","gender":"Female","ip_address":"31.49.152.131","occupation":"Pharmacist"},
 {"id":3,"first_name":"Clayborn","last_name":"Mcettrick","email":"cmcettrick2@ftc.gov","gender":"Male","ip_address":"6.235.213.222","occupation":"Office Assistant II"},
 {"id":4,"first_name":"Jillane","last_name":"Larwell","email":"jlarwell3@symantec.com","gender":"Female","ip_address":"74.1.74.69","occupation":"Actuary"},
